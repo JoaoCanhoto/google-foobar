@@ -43,8 +43,14 @@ As Commander Lambda's personal assistant, you get to deal with all of the paperw
 Not all of the bunny workers are highly-trained operatives. Some of them are civilians, and they're panicking in all the noise and confusion of the space station's destruction. Several of them have wedged themselves into corners and started thumping, which isn't exactly helping the station's structural integrity...
 * [level 4.1](level-4/4.1-bringing-a-gun-to-a-trainer-fight/problem.md)
 
+For a world-destroying despot with a penchant for making space-station-sized doomsday devices, Commander Lambda sure has good taste in office furniture. As a personal assistant, you have the latest in standing desk and ergonomic chair technology, and it sure makes a difference!
+* [level 4.2](level-4/4.2-running-with-bunnies/problem.md)
 
+> Oh no! You escaped Commander Lambda's exploding space station -- but so did the Commander, and Lambda is definitely not happy with you. Lambda is chasing you in a heavily-armed starfighter, while you and the bunny workers are stuck in these lumbering escape pods. It'll take all your wits and cleverness to escape such a hare-y situation, so you'd better hop to it!
 
 ## level 5
 
+Your planned escape route - and your backup route, and your extra-backup route - have all been blocked by debris from the space station or Commander Lambda's starfighters. Your only remaining option is to try deep space, and to boldly go where no bunny has gone before.
+
+* [level 5](level-5/5-disorderly-escape/problem.md)
 

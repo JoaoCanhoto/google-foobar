@@ -103,3 +103,9 @@ Input/output operations are not allowed.
 
 Your solution must be under 32000 characters in length including new lines and other non-printing characters.
 """
+
+
+
+Solution
+======
+* [level 3.2](./solution.py)

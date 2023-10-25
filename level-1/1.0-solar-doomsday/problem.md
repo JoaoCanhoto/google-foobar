@@ -34,3 +34,9 @@ Inputs:
 Output:
 
     (int list) [15129, 169, 25, 1]
+
+
+
+Solution
+======
+* [level 1](./solution.py)
