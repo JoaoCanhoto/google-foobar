@@ -85,3 +85,9 @@ Third-party libraries, input/output operations, spawning threads or processes an
 Your code will run inside a Python 2.7.6 sandbox.
 
 Standard libraries are supported except for bz2, crypt, fcntl, mmap, pwd, pyexpat, select, signal, termios, thread, time, unicodedata, zipimport, zlib.
+
+
+
+Solution
+======
+* [level 3.3](./solution.py)
