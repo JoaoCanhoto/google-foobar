@@ -65,7 +65,10 @@ def solution(src, dest):
         n_m += 1
         dx = xf - x
         dy = yf - y
-        for l in [[math.copysign(1, dx), math.copysign(2, dy)], [math.copysign(2, dx), math.copysign(1, dy)]]:
+        for l in [
+            [math.copysign(1, dx), math.copysign(2, dy)],
+            [math.copysign(2, dx), math.copysign(1, dy)],
+        ]:
             x_n = x + l[0]
             y_n = y + l[1]
             if (x_n == xf) and (y_n == yf):
@@ -73,7 +76,16 @@ def solution(src, dest):
         if n_m > 4:
             return 6
         deep_m = 6
-        for l in [[1, 2], [2, 1], [-1, 2], [-2, 1], [1, -2], [2, -1], [-1, -2], [-2, -1]]:
+        for l in [
+            [1, 2],
+            [2, 1],
+            [-1, 2],
+            [-2, 1],
+            [1, -2],
+            [2, -1],
+            [-1, -2],
+            [-2, -1],
+        ]:
             x_n = x + l[0]
             y_n = y + l[1]
             if not (x_n < 0 or x_n > 7 or y_n < 0 or y_n > 7):
@@ -110,5 +122,3 @@ print("      expected: ", 0)
 print("\n\n----------------- TEST 5")
 print("solution of 12: ", solution(0, 63))
 print("      expected: ", 6)
-
-

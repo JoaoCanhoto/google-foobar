@@ -49,6 +49,7 @@ def solution(area):
         return [int(first_sq)]
     return [int(first_sq)] + solution(remain)
 
+
 print("\n\n----------------- TEST 1")
 print("solution of 12: ", solution(12))
 print("      expected: ", [9, 1, 1, 1])
@@ -57,4 +58,3 @@ print("      expected: ", [9, 1, 1, 1])
 print("\n\n----------------- TEST 2")
 print("solution of 15324: ", solution(15324))
 print("         expected: ", [15129, 169, 25, 1])
-

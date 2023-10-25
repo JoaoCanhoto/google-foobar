@@ -87,6 +87,7 @@ Your solution must be under 32000 characters in length including new lines and o
 """
 import math
 
+
 def solution(n):
     def calc_n(n_left, n_prev, memo={}):
         name = f"{n_left}, {n_prev}"
@@ -120,4 +121,3 @@ print("      expected: ", 1)
 print("\n\n----------------- TEST 2")
 print("solution for 200: ", solution(200))
 print("        expected: ", 487067745)
-

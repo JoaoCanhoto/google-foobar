@@ -75,6 +75,7 @@ Your solution must be under 32000 characters in length including new lines and o
 
 import numpy as np
 
+
 # bad solution
 def solution_slow(start, length):
     base_array = np.array([start + i for i in range(length * length)])
@@ -90,6 +91,7 @@ def solution_slow(start, length):
         result = result ^ r
     return result
 
+
 # actual solution
 # I needed to find how the sequences of XOR worked, and the solution is quite simple
 def solution(start, length):
@@ -97,7 +99,8 @@ def solution(start, length):
         if start % 2:  # first number is odd
             switcher = {
                 1: start,  # starting in a odd number, odd^[4numbers]= odd^0=odd, [4numbers] starting in even = 0
-                2: start ^ end,  # starting in a odd number, odd^[4numbers]^even= odd^0^even=odd^even
+                2: start
+                ^ end,  # starting in a odd number, odd^[4numbers]^even= odd^0^even=odd^even
                 3: start - 1,
                 # starting in a odd number, odd^[4numbers...]^even^odd= odd^0^even^odd= odd^even^odd= odd^1= odd-1
                 0: start ^ 1 ^ end,
@@ -117,7 +120,9 @@ def solution(start, length):
 
     result_xor = 0
     for j in range(0, length):
-        result_xor = result_xor ^ get_xor_of_list(start + j * length, start + (j + 1) * length - j - 1)
+        result_xor = result_xor ^ get_xor_of_list(
+            start + j * length, start + (j + 1) * length - j - 1
+        )
     return result_xor
 
 

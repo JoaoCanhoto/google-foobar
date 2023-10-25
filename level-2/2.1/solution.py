@@ -4,4 +4,4 @@ def solution(x, y):
     return str(int(max_diag - (t - x)))
 
 
-print(solution([[1, 2],[4, 3]], [[3, 7],[4, 5]]))
+print(solution([[1, 2], [4, 3]], [[3, 7], [4, 5]]))
