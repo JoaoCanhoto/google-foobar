@@ -52,5 +52,6 @@ For a world-destroying despot with a penchant for making space-station-sized doo
 
 Your planned escape route - and your backup route, and your extra-backup route - have all been blocked by debris from the space station or Commander Lambda's starfighters. Your only remaining option is to try deep space, and to boldly go where no bunny has gone before.
 
-* [level 5](level-5/5-disorderly-escape/problem.md)
+* [level 5](./level-5/5.1-disorderly-escape/problem.md)
 
+With one last roar of the escape pod's engines, you and your bunny companions jump to lightspeed. Congratulations! You've destroyed the LAMBCHOP, relieved the bunnies, gotten Commander Lambda off your tail, and saved the galaxy. Time for a little rest and relaxation back on Bunny Planet. Pat yourself on the back -- you've earned it!
